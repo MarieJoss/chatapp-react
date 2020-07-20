@@ -12,12 +12,12 @@ import Join from "./components/Join/Join";
 import Chat from "./components/Chat/Chat";
 
 const App = () => (
-  <BrowserRouter>
+  <Router>
     <Switch>
       <Route path="/" exact component={Join} />
       <Route path="/chat" component={Chat} />
     </Switch>
-  </BrowserRouter>
+  </Router>
 );
 
 export default App;
