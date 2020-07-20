@@ -1,0 +1,76 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(70deg, #c0d2f9, #7d9bdb);
+}
+
+.joinInnerContainer {
+  width: 30%;
+  background: white;
+  border-radius: 50px;
+  padding: 30px;
+  color: black;
+}
+
+.joinInput {
+  padding: 15px 20px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 200px;
+  border: none;
+  background: #c0d2f9;
+}
+
+.heading {
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #f46a50;
+  padding: 20px;
+  border-radius: 200px;
+  display: inline-block;
+  border: none;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
